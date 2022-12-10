@@ -1,5 +1,5 @@
-FROM icr.io/codeengine/node:12-alpine
-#FROM node:16-alpine
+#FROM icr.io/codeengine/node:12-alpine
+FROM node:16-alpine
 COPY package.json .
 RUN npm install
 RUN mkdir public
